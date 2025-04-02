@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+
+// GET /sign-token
+
+router.get("/sign-token", (req, res) => {
+  res.json({message: "You are authorized"});
+});
+
+
+module.exports = router;
